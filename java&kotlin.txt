@@ -1,0 +1,36 @@
+// Kotlin
+
+	//Globle variable 
+    lateinit var dialog: Dialog
+	
+	    dialog= Dialog(this)
+        dialog.setContentView(R.layout.progress_dialog)
+        dialog.setCancelable(false)
+        if (dialog.window != null){
+            dialog!!.window!!.setBackgroundDrawable(ColorDrawable(0))
+        }
+		
+  dialog.show()
+  dialog.dismiss()
+  
+  
+ //Java
+	
+	
+	//Globle variable 
+      private Dialog dialog;
+	  
+	  
+	    dialog=new Dialog(this);
+        dialog.setContentView(R.layout.progress_dialog);
+       // dialog.setCancelable(true);
+
+        if (dialog.getWindow()!=null){
+            dialog.getWindow().setBackgroundDrawable(new ColorDrawable(0));
+        }
+		
+		
+	  dialog.show();
+	  dialog.dismiss();
+  
+

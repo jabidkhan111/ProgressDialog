@@ -1,0 +1,3 @@
+   <style name="ProgressDialog">
+        <item name="colorSecondary">#BF360C</item>
+    </style>
